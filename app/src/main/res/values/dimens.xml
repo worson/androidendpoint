@@ -1,0 +1,138 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="common_left_backbtn_width">54.0dip</dimen>
+    <dimen name="common_searchbox_home_high">48.0dip</dimen>
+    <dimen name="common_searchbox_home_magnifier_margin">12.0dip</dimen>
+    <dimen name="common_searchbox_home_voicebtn_width">50.0dip</dimen>
+    <dimen name="common_searchbox_search_cleanbtn_marginright">10.0dip</dimen>
+    <dimen name="common_searchbox_search_high">57.0dip</dimen>
+
+    <dimen name="pio_item_title_font">18sp</dimen>
+    <dimen name="pio_item_subtitle_font">14sp</dimen>
+
+    <!--main_navi_item -->
+    <dimen name="main_navi_item_height">250dp</dimen>
+    <dimen name="main_navi_item_divider_height">8dp</dimen>
+    <dimen name="margin_left_main_navi_item_icon">16dp</dimen>
+    <dimen name="margin_main_navi_item">8dp</dimen>
+    <dimen name="margin_top_main_navi_item_icon">24.5dp</dimen>
+    <dimen name="margin_left_main_navi_item_title">16dp</dimen>
+
+    <dimen name="navi_tittle_padding_bottom">16dp</dimen>
+    <dimen name="navi_subtittle_padding_bottom">16dp</dimen>
+    <dimen name="navi_item_title_font">16sp</dimen>
+    <dimen name="font_size_main_navi_item_title">12sp</dimen>
+    <dimen name="font_size_main_navi_connection_state">15sp</dimen>
+
+    <!--<activity_main>-->
+    <dimen name="margin_top_main_navi_item_title">41dp</dimen>
+    <dimen name="margin_left_main_navi_item_title2subtitle">16dp</dimen>
+
+    <!--navi_item -->
+
+
+    <dimen name="margin_top_navi_item_color_block">20dp</dimen>
+    <dimen name="margin_top_navi_item_connection_state">10dp</dimen>
+
+    <!--具体布局配置-->
+    <!--toolbar-->
+    <dimen name="common_toolbar_height">56dp</dimen>
+    <dimen name="common_toolbar_title_size">17sp</dimen>
+    <dimen name="common_toolbar_title_margin_start">76dp</dimen>
+    <!--common_search_bar-->
+    <dimen name="common_search_bar_height">58dp</dimen>
+    <dimen name="common_search_bar_text_size">16sp</dimen>
+
+    <!--poi tip item-->
+    <dimen name="margin_poi_listitem_line">2dp</dimen>
+    <dimen name="poi_listitem_height">70dp</dimen>
+    <dimen name="poi_listitem__title_size">16sp</dimen>
+    <dimen name="poi_listitem__subtitle_size">12dp</dimen>
+
+    <!--searched_poi_item -->
+    <dimen name="height_searched_poi_item_new">60dp</dimen>
+    <dimen name="searched_poi_item_number_size">32sp</dimen>
+    <dimen name="margin_left_searched_poi_item_number_size">16dp</dimen>
+    <dimen name="searched_poi_item_title_size">16sp</dimen>
+    <dimen name="marin_left_searched_poi_item_title_size">16dp</dimen>
+    <dimen name="marin_right_searched_poi_item_title_size">8dp</dimen>
+    <dimen name="marin_right_searched_poi_item_line_size">16dp</dimen>
+    <dimen name="searched_poi_item_subtitle_size">12sp</dimen>
+    <dimen name="searched_poi_item_nave_icon_title_size">14sp</dimen>
+    <dimen name="margin_left_searched_poi_item_nave_icon">14sp</dimen>
+
+    <!--plan_route_info-->
+    <dimen name="fontsize_plan_route_info_route_type">16sp</dimen>
+    <dimen name="fontsize_plan_route_info_route_time">16sp</dimen>
+    <dimen name="fontsize_plan_route_info_route_distance">12sp</dimen>
+    <dimen name="width_route_info_route_view_group">90dp</dimen>
+    <dimen name="height_top_route_info_route_view_group">80dp</dimen>
+    <dimen name="padding_top_route_info_route_view_group">6dp</dimen>
+    <dimen name="padding_bottom_route_info_route_view_group">6dp</dimen>
+    <dimen name="padding_left_route_info_route_view_group">12dp</dimen>
+    <dimen name="padding_plan_route_info_default">2dp</dimen>
+    <dimen name="margin_plan_route_info_default">16dp</dimen>
+    <dimen name="margin_vertical_plan_route_detail_default">8dp</dimen>
+    <dimen name="margin_horizontal_plan_route_detail_default">76dp</dimen>
+    <dimen name="height_horizontal_plan_route_detail_default">48dp</dimen>
+
+    <dimen name="height_plan_route_detail_line">35dp</dimen>
+    <dimen name="width_plan_route_detail_line">4px</dimen>
+
+    <!--navi_start_popup_-->
+    <dimen name="margin_horizontal_navi_start_popup_default">48dp</dimen>
+    <dimen name="margin_vertical_navi_start_popup_default">16dp</dimen>
+    <dimen name="padding_vertical_navi_start_popup_line_default">16dp</dimen>
+    <dimen name="padding_vertical_navi_start_popup_default">8dp</dimen>
+
+
+    <!--常用分类配置，即默认布局的尺寸-->
+
+    <!--padding -->
+    <dimen name="padding_icon_imageview">8dp</dimen>
+    <dimen name="padding_icon_textview">8dp</dimen>
+
+    <!--default size -->
+    <dimen name="fontsize_toolbar_title">17sp</dimen>
+    <!--maxsize 最大布局尺寸-->
+    <dimen name="maxsize_common_imageview_width">60dp</dimen>
+    <dimen name="maxsize_common_imageview_heignt">60dp</dimen>
+    <dimen name="maxsize_icon_imageview_width">30dp</dimen>
+    <dimen name="maxsize_icon_imageview_heignt">30dp</dimen>
+
+    <!--padding 内边距-->
+    <dimen name="padding_common_textview">10dp</dimen>
+    <dimen name="padding_common_imageview">10dp</dimen>
+
+    <!--margin 外边距设置-->
+    <dimen name="margin_common_size">16dp</dimen>
+    <dimen name="margin_common_sizeLeft">16dp</dimen>
+    <dimen name="margin_common_sizeRight">16dp</dimen>
+    <dimen name="margin_common_sizeTop">10dp</dimen>
+    <dimen name="margin_common_sizeBottem">10dp</dimen>
+    <dimen name="margin_common_listitem_left">16dp</dimen>
+    <dimen name="margin_common_listitem_left_icon">16dp</dimen>
+    <dimen name="margin_common_listview_top">8dp</dimen>
+    <dimen name="margin_common_line">40dp</dimen>
+    <dimen name="margin_toolbar_title">10dp</dimen>
+    <dimen name="margin_toolbar_height">50dp</dimen>
+    <dimen name="margin_image_size">16dp</dimen>
+    <dimen name="margin_big_image_size">50dp</dimen>
+
+
+    <!--font 字体大小配置-->
+    <dimen name="font_common_title">16sp</dimen>
+    <dimen name="font_common_subtitle">12sp</dimen>
+    <dimen name="font_common_textview_title">14sp</dimen>
+    <dimen name="font_common_icon_bottom_title">9sp</dimen>
+    <dimen name="font_common_icon_big_left_title">12sp</dimen>
+
+    <!--px相关-->
+    <dimen name="size_default_line_height">2px</dimen>
+
+    <!--divider 相关-->
+    <dimen name="size_divider_height_main_item">8dp</dimen>
+
+</resources>

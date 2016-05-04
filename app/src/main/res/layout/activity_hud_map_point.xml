@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_hdu_map_point"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.haloai.hud.androidendpoint.views.navi.HudMapPointActivity">
+    <include layout="@layout/common_search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/basicmap_activity"/>
+    </FrameLayout>
+    <include layout="@layout/common_toolbar"></include>
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/common_tool_bar"-->
+        <!--android:layout_height="@dimen/common_toolbar_height"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--toolbar:titleMarginStart="@dimen/common_toolbar_title_margin_start"-->
+        <!--tools:title="@string/app_name"-->
+        <!--toolbar:title="@string/app_name"-->
+        <!--toolbar:titleTextColor="@color/color_toolbar_titleText"-->
+        <!--toolbar:navigationIcon="@drawable/common_icon_back_btn_normal"-->
+        <!--android:background="@color/color_toolbar_backgroud">-->
+
+    <!--</android.support.v7.widget.Toolbar>-->
+
+    <!--poi list display    -->
+    <com.haloai.hud.androidendpoint.views.view.WrapSlidingDrawer
+        android:id="@+id/poi_list_WrapSlidingDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:content="@+id/searchPoiListView"
+        android:handle="@+id/poi_list_WrapSlidingDrawer_hold"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:scrollbars="none"
+            android:listSelector="@android:color/transparent"
+            android:background="@color/white"
+            android:id="@+id/searchPoiListView">
+
+        </ListView>
+
+        <ImageView
+            android:id="@+id/poi_list_WrapSlidingDrawer_hold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/poi_list_drawer_image" />
+
+    </com.haloai.hud.androidendpoint.views.view.WrapSlidingDrawer>
+
+    <!--route list display    -->
+    <include layout="@layout/layout_navi_route_display"
+        android:id="@+id/navi_route_display_viewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <LinearLayout
+        android:id="@+id/map_point_popup_window"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

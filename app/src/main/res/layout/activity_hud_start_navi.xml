@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_navi_backgroud"
+    tools:context="com.haloai.hud.androidendpoint.views.navi.HudStartNaviActivity">
+
+    <include
+        android:id="@+id/common_tool_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/common_toolbar"></include>
+
+    <ImageView
+        android:id="@+id/start_navi_haloai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/common_tool_bar"
+        android:layout_marginTop="33dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/start_navi_haloai" />
+    <Button
+        android:layout_below="@id/start_navi_haloai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/start_navi_circle"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:text="启动\n  one click" />
+    <RelativeLayout
+        android:id="@+id/start_navi_back_main_viewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp"
+        android:background="@color/black"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/start_navi_back_main_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/black"
+            android:drawableLeft="@drawable/start_navi_back_home"
+            android:text="返回首页"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_above="@id/start_navi_back_main_viewgroup"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="HUD导航开始祝你旅途愉快" />
+
+
+</RelativeLayout>

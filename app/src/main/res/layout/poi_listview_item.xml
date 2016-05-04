@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/poi_listitem_height"
+    android:layout_marginLeft="@dimen/margin_common_listitem_left"
+    android:orientation="horizontal" >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/tip_poi_item_location"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="@dimen/margin_common_listitem_left_icon"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/poititle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/color_poi_listitem__title"
+            android:textSize="@dimen/poi_listitem__title_size"
+            android:text="地名" />
+        <TextView
+            android:id="@+id/subpoititle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/color_poi_listitem__subtitle"
+            android:textSize="@dimen/poi_listitem__subtitle_size"
+            android:text="副标题" />
+    </LinearLayout>
+
+
+
+
+    <!--<com.amap.map3d.demo.poisearch.NoScrollGridView-->
+        <!--android:id="@+id/listview_item_gridview"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:numColumns="auto_fit"  -->
+        <!--android:verticalSpacing="10dp"  -->
+        <!--android:horizontalSpacing="5dp"  -->
+        <!--android:columnWidth="80dp"  -->
+        <!--android:stretchMode="columnWidth"/>-->
+</LinearLayout>

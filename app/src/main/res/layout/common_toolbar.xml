@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/common_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_toolbar_height"
+        android:background="@color/color_toolbar_backgroud"
+        toolbar:navigationIcon="@drawable/common_icon_back_btn_normal">
+        <TextView
+            android:id="@+id/navi_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="start"
+            android:text="@string/app_name"
+            android:textSize="@dimen/fontsize_toolbar_title"
+            android:textColor="@color/color_toolbar_titleText" />
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textSize="@dimen/fontsize_toolbar_title"
+            android:textColor="@color/color_toolbar_titleText" />
+
+    </android.support.v7.widget.Toolbar>
+
+</merge>

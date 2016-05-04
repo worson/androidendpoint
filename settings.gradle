@@ -1,0 +1,7 @@
+include ':app'
+include ':endpointsSharedLib'
+project(':endpointsSharedLib').projectDir = new File('/Users/wangshengxing/SourceTree/halo/hudlauncher/endpointsSharedLib')
+include ':endpointsTransportLayerLib'
+project(':endpointsTransportLayerLib').projectDir = new File('/Users/wangshengxing/SourceTree/halo/hudlauncher/endpointsTransportLayerLib')
+include ':hudEndpointPhoneConnection'
+project(':hudEndpointPhoneConnection').projectDir = new File('/Users/wangshengxing/SourceTree/halo/hudlauncher/hudEndpointPhoneConnection')

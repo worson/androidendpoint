@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navi_start_popup_windwow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_horizontal_navi_start_popup_default"
+    android:layout_marginRight="@dimen/margin_horizontal_navi_start_popup_default">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/navi_start_popup_send_hud_vuewgroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_navi_start_popup_window_backgroud"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_vertical_navi_start_popup_default">
+
+            <TextView
+                android:id="@+id/navi_start_popup_connect_state_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="0dp"
+                android:drawableLeft="@drawable/navi_route_unconnect_icon"
+                android:padding="0dp"
+                android:text="HUD未连接"
+                android:textAlignment="center"
+                android:textColor="@color/color_navi_start_popup_window_title" />
+
+            <TextView
+                android:id="@+id/navi_start_popup_send_hud_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:text="立即连接发起导航"
+                android:textAlignment="center"
+                android:textColor="@color/color_navi_start_popup_window_title" />
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/navi_start_popup_line_textview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_default_line_height"
+            android:padding="@dimen/padding_vertical_navi_start_popup_line_default" />
+
+        <Button
+            android:id="@+id/navi_start_popup_send_cloud_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_navi_start_popup_window_backgroud"
+            android:padding="@dimen/padding_vertical_navi_start_popup_default"
+            android:text="发送路线至云端"
+            android:textAlignment="center"
+            android:textColor="@color/color_navi_start_popup_window_title" />
+
+        <View
+            android:id="@+id/navi_start_popup_line2_textview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_default_line_height" />
+
+        <Button
+            android:id="@+id/navi_start_popup_return_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/color_navi_start_popup_window_back_background"
+            android:padding="@dimen/padding_vertical_navi_start_popup_default"
+            android:text="返回"
+            android:textAlignment="center"
+            android:textColor="@color/color_navi_start_popup_window_back_title" />
+    </LinearLayout>
+
+</RelativeLayout>

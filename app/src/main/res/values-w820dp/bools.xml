@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="animation_enabled">false</bool>
+    <bool name="auto_test_macro_define">false</bool>
+    <bool name="enableCallTelephone">true</bool>
+    <bool name="enableComManager">false</bool>
+    <bool name="enableFetionShare">false</bool>
+    <bool name="enableLogParameter">true</bool>
+    <bool name="enableLogToLogcat">false</bool>
+    <bool name="enableLogToSdcard">false</bool>
+    <bool name="enableLogUserOperation">true</bool>
+    <bool name="enableNAParticle">true</bool>
+    <bool name="enablePushService">true</bool>
+    <bool name="enableSoftwareRecommend">true</bool>
+    <bool name="enableUpdate">true</bool>
+    <bool name="enableVoiceSearch">true</bool>
+    <bool name="flowHintVisable">false</bool>
+    <bool name="monkeyTest">false</bool>
+    <bool name="oemNumberVisable">false</bool>
+    <bool name="publicTesting">false</bool>
+</resources>

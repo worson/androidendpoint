@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey"> #ebebeb</color>
+    <color name="black"> #000000</color>
+    <color name="darkgrey"> #C0C0C0</color>
+    <color name="white"> #FFFFFF</color>
+    <color name="red"> #FF0000</color>
+    <color name="f850_default_blue">#0079ff</color>
+
+    <drawable name="transparent">#00000000</drawable>
+    <color name="transparent">#00000000</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="common_title_bar_background">#ffffffff</color>
+    <color name="common_text_color_hint">#ff999999</color>
+
+    <!--main_navi_item -->
+    <color name="color_main_item_background">#ffffff</color>
+    <color name="color_main_item_click_background">#F4F4F4</color>
+    <color name="color_main_background">#F4F4F4</color>
+    <color name="color_main_navi_connection_state">#ffffffff</color>
+    <color name="color_main_navi_item_subtitle">#ff999999</color>
+    <color name="color_main_navi_item_divider">#F4F4F4</color>
+
+    <!--poi tip item-->
+    <color name="color_poi_listitem__title_focus">#007aff</color>
+    <color name="color_poi_listitem__title">#2b2c30</color>
+    <color name="color_poi_listitem__subtitle">#535455</color>
+
+    <!--searched_poi_item -->
+    <color name="color_searched_poi_item_focus_title">#007aff</color>
+    <color name="color_searched_poi_item_navi_title">#007aff</color>
+    <color name="color_searched_poi_item_line">#535455</color>
+    <!--plan_route_info-->
+    <color name="color_plan_route_info_group_backgroud">#ffffffff</color>
+    <color name="color_plan_route_info_default">#535455</color>
+    <color name="color_plan_route_info_time_text">#007aff</color>
+    <color name="color_plan_route_info_navi_backgroud">#007aff</color>
+    <color name="color_plan_route_info_navi_title">#FFFFFF</color>
+
+    <!--line-->
+    <color name="color_default_line_backgroud">#535455</color>
+
+    <!--navi_start_popup_window-->
+    <color name="color_navi_start_popup_window_backgroud">#FFFFFF</color>
+    <color name="color_navi_start_popup_window_title">#007AFF</color>
+    <color name="color_navi_start_popup_window_back_background">#007AFF</color>
+    <color name="color_navi_start_popup_window_back_title">#FFFFFF</color>
+
+    <!--常用分类配置，即默认布局的颜色-->
+    <!--Text 字体颜色-->
+    <color name="color_toolbar_titleText">#FFFFFF</color>
+    <color name="color_toolbar_backgroud">#2b2c30</color>
+    <color name="color_common_titleText">#2b2c30</color>
+
+
+    <color name="color_toolbar_background">#000000</color>
+    <color name="color_default_background">#C0C0C0</color>
+    <color name="color_default_foreground">#FFFFFF</color>
+
+
+
+
+</resources>

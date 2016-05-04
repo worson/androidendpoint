@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="edittext_searchbox_search_input">false</item>
+    <item type="id" name="iv_searchbox_search_magnifier">false</item>
+    <item type="id" name="ll_edit_right">false</item>
+    <item type="id" name="iv_searchbox_search_clean">false</item>
+    <item type="id" name="progress_search_start">false</item>
+</resources>

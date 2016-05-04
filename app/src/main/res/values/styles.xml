@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="DefaultAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+    </style>
+
+    <style name="CommonSearchboxHomeText">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff999999</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="android:colorPrimary">@color/black </item> -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="searchViewStyle">@style/HudSearchView</item>
+    </style>
+    <style name="HudSearchView" parent="Widget.AppCompat.SearchView"></style>
+
+</resources>

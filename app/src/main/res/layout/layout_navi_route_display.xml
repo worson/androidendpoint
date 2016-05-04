@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/anvi_route_info_father_viewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/anvi_route_detail_viewgroup"
+        android:background="@color/color_plan_route_info_group_backgroud"
+        android:paddingTop="@dimen/padding_top_route_info_route_view_group">
+
+        <LinearLayout
+            android:id="@+id/plan_route_info_route_groupview1"
+            android:layout_width="@dimen/width_route_info_route_view_group"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/margin_plan_route_info_default"
+            android:layout_marginRight="@dimen/margin_plan_route_info_default"
+            android:layout_weight="3"
+            android:background="@drawable/navi_route_info_background_point_9"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_bottom_route_info_route_view_group"
+            android:paddingLeft="@dimen/padding_left_route_info_route_view_group"
+            android:paddingTop="@dimen/padding_top_route_info_route_view_group">
+
+            <TextView
+                android:id="@+id/plan_route_info_route_type_textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_plan_route_info_default"
+                android:text="推荐路线"
+                android:textColor="@color/color_plan_route_info_default"
+                android:textSize="@dimen/fontsize_plan_route_info_route_type" />
+
+            <TextView
+                android:id="@+id/plan_route_info_route_time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_plan_route_info_default"
+                android:text="22min"
+                android:textColor="@color/color_plan_route_info_time_text"
+                android:textSize="@dimen/fontsize_plan_route_info_route_time" />
+
+            <TextView
+                android:id="@+id/plan_route_info_route_distance1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_plan_route_info_default"
+                android:text="7.2km"
+                android:textColor="@color/color_plan_route_info_default"
+                android:textSize="@dimen/fontsize_plan_route_info_route_distance" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/width_plan_route_detail_line"
+            android:layout_height="@dimen/height_plan_route_detail_line"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:background="@color/color_default_line_backgroud" />
+
+        <LinearLayout
+            android:id="@+id/plan_route_info_route_groupview2"
+            android:layout_width="@dimen/width_route_info_route_view_group"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/margin_plan_route_info_default"
+            android:layout_marginRight="@dimen/margin_plan_route_info_default"
+            android:layout_weight="3"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_bottom_route_info_route_view_group"
+            android:paddingLeft="@dimen/padding_left_route_info_route_view_group"
+            android:paddingTop="@dimen/padding_top_route_info_route_view_group">
+
+            <TextView
+                android:id="@+id/plan_route_info_route_type_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_plan_route_info_default"
+                android:text="用时最少"
+                android:textColor="@color/color_plan_route_info_default"
+                android:textSize="@dimen/fontsize_plan_route_info_route_type" />
+
+            <TextView
+                android:id="@+id/plan_route_info_route_time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_plan_route_info_default"
+                android:text="22min"
+                android:textColor="@color/color_plan_route_info_time_text"
+                android:textSize="@dimen/fontsize_plan_route_info_route_time" />
+
+            <TextView
+                android:id="@+id/plan_route_info_route_distance2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_plan_route_info_default"
+                android:text="7.2km"
+                android:textColor="@color/color_plan_route_info_default"
+                android:textSize="@dimen/fontsize_plan_route_info_route_distance" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/width_plan_route_detail_line"
+            android:layout_height="@dimen/height_plan_route_detail_line"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:background="@color/color_default_line_backgroud" />
+
+        <LinearLayout
+            android:id="@+id/plan_route_info_route_groupview3"
+            android:layout_width="@dimen/width_route_info_route_view_group"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/margin_plan_route_info_default"
+            android:layout_marginRight="@dimen/margin_plan_route_info_default"
+            android:layout_weight="3"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_bottom_route_info_route_view_group"
+            android:paddingLeft="@dimen/padding_left_route_info_route_view_group"
+            android:paddingTop="@dimen/padding_top_route_info_route_view_group">
+
+            <TextView
+                android:id="@+id/plan_route_info_route_type_textview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_plan_route_info_default"
+                android:text="躲避拥堵"
+                android:textColor="@color/color_plan_route_info_default"
+                android:textSize="@dimen/fontsize_plan_route_info_route_type" />
+
+            <TextView
+                android:id="@+id/plan_route_info_route_time3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_plan_route_info_default"
+                android:text="22min"
+                android:textColor="@color/color_plan_route_info_time_text"
+                android:textSize="@dimen/fontsize_plan_route_info_route_time" />
+
+            <TextView
+                android:id="@+id/plan_route_info_route_distance3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_plan_route_info_default"
+                android:text="7.2km"
+                android:textColor="@color/color_plan_route_info_default"
+                android:textSize="@dimen/fontsize_plan_route_info_route_distance" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/anvi_route_detail_viewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_horizontal_plan_route_detail_default"
+        android:layout_above="@+id/anvi_route_start_viewgroup"
+        android:layout_marginBottom="@dimen/margin_vertical_plan_route_detail_default"
+        android:layout_marginTop="@dimen/margin_vertical_plan_route_detail_default"
+        android:background="@color/color_plan_route_info_group_backgroud">
+
+        <TextView
+            android:id="@+id/anvi_route_trafficlights_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_horizontal_plan_route_detail_default"
+            android:text="红绿灯5个" />
+
+        <TextView
+            android:id="@+id/anvi_route_charge_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_horizontal_plan_route_detail_default"
+            android:text="过路费22元" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/anvi_route_start_viewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/color_plan_route_info_navi_backgroud"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/anvi_route_start_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/anvi_route_start_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/color_plan_route_info_navi_backgroud"
+                android:text="开始导航"
+                android:textColor="@color/color_plan_route_info_navi_title" />
+
+            <TextView
+                android:id="@+id/anvi_route_start_timer_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/navi_route_timer_background"
+                android:gravity="center"
+                android:text="9"
+                android:textColor="@color/color_plan_route_info_navi_title"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

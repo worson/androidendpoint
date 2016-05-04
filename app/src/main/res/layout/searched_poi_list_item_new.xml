@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/height_searched_poi_item_new"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/sort_nubmer_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin_left_searched_poi_item_number_size"
+        android:text="1、"
+        android:textSize="@dimen/searched_poi_item_number_size" />
+
+    <LinearLayout
+        android:id="@+id/searched_poi_item_title_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/marin_left_searched_poi_item_title_size"
+        android:layout_marginRight="@dimen/marin_right_searched_poi_item_title_size"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/poititle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:singleLine="true"
+            android:text="西乡路口"
+            android:textSize="@dimen/searched_poi_item_title_size" />
+
+        <TextView
+            android:id="@+id/subpoititle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:paddingTop="6dp"
+            android:singleLine="true"
+            android:text="232路;331路;337路;232路;331路;337路;"
+            android:textSize="@dimen/searched_poi_item_subtitle_size" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/searched_poi_item_line"
+        android:layout_width="2px"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="@dimen/marin_right_searched_poi_item_line_size"
+        android:layout_marginRight="@dimen/marin_right_searched_poi_item_line_size"
+        android:layout_marginTop="10dp"
+        android:background="@color/color_searched_poi_item_line" />
+
+
+    <TextView
+        android:id="@+id/searched_poi_item_start_navi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/margin_left_searched_poi_item_nave_icon"
+        android:drawablePadding="4dp"
+        android:drawableTop="@drawable/searched_poi_item_blue_navi_icon"
+        android:text="发起导航"
+        android:textColor="@color/color_searched_poi_item_navi_title"
+        android:textSize="@dimen/searched_poi_item_nave_icon_title_size" />
+
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_default_background"
+    android:orientation="vertical"
+    tools:context="com.haloai.hud.androidendpoint.views.navi.HudPoiTipsActivity">
+
+    <include android:id="@+id/tipsToolbar" layout="@layout/common_toolbar"></include>
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/tipsToolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/common_toolbar_height"-->
+        <!--android:background="@color/color_toolbar_backgroud"-->
+        <!--toolbar:navigationIcon="@drawable/common_icon_back_btn_normal">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/toolbar_title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="@string/app_name"-->
+            <!--android:textSize="@dimen/fontsize_toolbar_title"-->
+            <!--android:textColor="@color/color_toolbar_titleText" />-->
+
+    <!--</android.support.v7.widget.Toolbar>-->
+
+    <include layout="@layout/common_search_bar" />
+
+    <LinearLayout
+        android:id="@+id/searchHelpPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_default_foreground"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:padding="@dimen/padding_icon_textview"
+                android:text="常用地址"
+                android:textColor="@color/color_common_titleText"
+                android:textSize="@dimen/font_common_textview_title" />
+
+
+            <ImageView
+                android:id="@+id/common_used_add_imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_image_size"
+                android:maxHeight="@dimen/maxsize_icon_imageview_heignt"
+                android:padding="@dimen/padding_icon_imageview"
+                android:maxWidth="@dimen/maxsize_icon_imageview_width"
+                android:src="@drawable/tips_icon_common_add_modify" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/darkgrey"
+            android:layout_marginLeft="@dimen/margin_poi_listitem_line"
+            android:layout_marginRight="@dimen/margin_poi_listitem_line"
+            android:paddingRight="@dimen/margin_common_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_big_image_size"
+                android:adjustViewBounds="true"
+                android:maxHeight="@dimen/maxsize_common_imageview_heignt"
+                android:maxWidth="@dimen/maxsize_common_imageview_width"
+                android:padding="@dimen/padding_common_imageview"
+                android:src="@drawable/tips_icon_home" />
+
+            <View
+                android:layout_width="2px"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@color/darkgrey"
+                android:paddingBottom="@dimen/margin_common_line"
+                android:paddingTop="@dimen/margin_common_line" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_big_image_size"
+                android:adjustViewBounds="true"
+                android:maxHeight="@dimen/maxsize_common_imageview_heignt"
+                android:maxWidth="@dimen/maxsize_common_imageview_width"
+                android:padding="@dimen/padding_common_imageview"
+                android:src="@drawable/tips_icon_company" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/darkgrey"
+            android:layout_marginLeft="@dimen/margin_poi_listitem_line"
+            android:layout_marginRight="@dimen/margin_poi_listitem_line"
+            android:paddingRight="@dimen/margin_common_line" />
+
+        <ListView
+            android:id="@+id/historyListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_default_foreground">
+
+        </ListView>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/locationList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_default_foreground"
+        android:foregroundGravity="bottom">
+
+    </ListView>
+
+</LinearLayout>

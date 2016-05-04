@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.haloai.hud.androidendpoint.demo.TestPhone2HudConnection">
+
+    <Button
+        android:id="@+id/test_send_naviinfo_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="模拟发送导航数据"/>
+
+    <Button
+        android:id="@+id/test_mobile_info_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:text="查询手机信息"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_default_bt_selector"
+        android:layout_below="@id/test_send_naviinfo_textview"
+        android:layout_centerInParent="true"
+        android:text="Selector按键"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_default_bt_selector"
+        android:text="RadioButton">
+
+    </RadioButton>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="点9图内容"
+        android:background="@drawable/navi_route_info_background_point_9"
+        />
+
+
+</LinearLayout>
