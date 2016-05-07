@@ -19,6 +19,7 @@ import android.widget.Toast;
 import com.haloai.hud.androidendpoint.connmanager.HudConnectionManager;
 import com.haloai.hud.androidendpoint.demo.TestPhone2HudConnection;
 import com.haloai.hud.androidendpoint.util.Phone2HudMessagesUtils;
+import com.haloai.hud.androidendpoint.views.carcorder.HudCarcorderActivity;
 import com.haloai.hud.androidendpoint.views.navi.HudPoiTipsActivity;
 import com.haloai.hud.androidendpoint.R;
 import com.haloai.hud.androidendpoint.views.settings.HudSettingsActivity;
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private Context mContext;
 
     private HudConnectionManager mHudConnectionManager;
+    private String mCurrentPhoneRequestIdStr;
     //View
     ProgressDialog mProgressDialog;
 
@@ -58,8 +60,8 @@ public class MainActivity extends AppCompatActivity {
     private static final ModuleDetails[] demos = {
 //            new ModuleDetails(0, 0, HudNaviAcitity.class),
             new ModuleDetails(0, 0, HudPoiTipsActivity.class),
-            new ModuleDetails(0, 0, TestPhone2HudConnection.class),
-//            new ModuleDetails(0, 0, HudCarcorderActivity.class),
+//            new ModuleDetails(0, 0, TestPhone2HudConnection.class),
+            new ModuleDetails(0, 0, HudCarcorderActivity.class),
             new ModuleDetails(0, 0, HudSettingsActivity.class),
     };
 
@@ -206,7 +208,7 @@ public class MainActivity extends AppCompatActivity {
         moduleDetailNames = this.getApplicationContext().getResources().getStringArray(R.array.main_modules_detail);
     }
 
-    String mCurrentPhoneRequestIdStr;
+
 
     private void initHudConnectionView() {
         mHudConnectionManager = HudConnectionManager.getInstance(this.getApplicationContext());
